@@ -8,8 +8,11 @@ main() {
 	//O uso das variáveis será comentado abaixo
 	
 	do { //Utilizando o 'do' para necessariamente 'excutar uma vez', além de ser um 'loop indefinido'
-		printf("\nInforme sua idade: ");
-		scanf("%d", &idade); //recebendo a idade do espectador corrente na variável 'idade'
+		do {
+			printf("\nInforme sua idade: ");
+			scanf("%d", &idade); //recebendo a idade do espectador corrente na variável 'idade'
+		} while (idade <= 0 && idade >120); //só segue adiante se a idade for válida
+		
 		printf("\nAvalie o filme de acordo com a tabela abaixo: (digitando o numero)"); //tem que explicar direito, pq usuário já viu né...
 		printf("\n---- Excelente ---- [3]");
 		printf("\n------- Bom ------- [2]");
