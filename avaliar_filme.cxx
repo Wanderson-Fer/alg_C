@@ -11,11 +11,7 @@ main() {
 		do {
 			printf("\nInforme sua idade: ");
 			scanf("%d", &idade); //recebendo a idade do espectador corrente na variável 'idade'
-<<<<<<< HEAD
-		} while (idade <= 0);
-=======
 		} while (idade <= 0 && idade >120); //só segue adiante se a idade for válida
->>>>>>> e0decaaa7004e15d05b5b96f2f0a2a60aa908531
 		
 		printf("\nAvalie o filme de acordo com a tabela abaixo: (digitando o numero)"); //tem que explicar direito, pq usuário já viu né...
 		printf("\n---- Excelente ---- [3]");
