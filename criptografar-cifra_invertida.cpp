@@ -14,7 +14,7 @@ maiusculo (char str[]){
 main () {
 	char mens[100],
 		alfabeto[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 
-		cifra[27] =    "BCDEFGHIJKLMNOPQRSTUVWXYZA",
+		cifra[27] =    "ZYXWVUTSRQPONMLKJIHGFEDCBA",
 		mens_cripto[100];
 	int comp;
 	//setlocale(LC_ALL, "portuguese");
